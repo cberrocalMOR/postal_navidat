@@ -7,16 +7,19 @@ for (var i = 0; i < SNOW_BALLS; i++) {
 
 function generateBalls(var1){
 
-    var randomDeep = Math.random();
+    
     var letItSnow = document.createElement("div");
     var random = (Math.random() * 160)-30;
     letItSnow.classList.add("bola");
     letItSnow.style.left = random+"%";
 
+    // relacion entre profundidad y opacidad
+    var randomDeep = Math.random();
     letItSnow.style.filter = "opacity("+randomDeep+")";
-    letItSnow.style.zIndex = Math.floor((randomDeep * 2)-1.5);
+    //0.75 dejara el 75% de las bolas pasar por delante
+    //1 dejara el 50% de las bolas pasar por delante
+    letItSnow.style.zIndex = Math.round((randomDeep)-1.25);
     letItSnow.style.animationDelay = var1+"s, "+(var1+Math.random())+"s";
-    console.log(letItSnow.style.left);
     cover[0].appendChild(letItSnow);
 }
     
