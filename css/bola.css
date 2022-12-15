@@ -383,7 +383,8 @@ body {
   border-radius: 50%;
   position: relative;
   bottom: 842px;
-  overflow:hidden
+  overflow: hidden;
+  box-shadow: inset 0px 0px 10px 6px rgba(255, 255, 255, 0.888), inset 0px 0px 23px 12px rgba(255, 255, 255, 0.433);
 }
 
 .bottom {
