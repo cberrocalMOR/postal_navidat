@@ -1,3 +1,10 @@
+:root{
+  --doorH: 30px;
+  --doorW: calc(var(--doorH) / 2);
+  --doorLeftBorder: 170px;
+  --doorTopBorder: 180px;
+}
+
 body {
   background-color: #241e4e;
   padding: 0;
@@ -16,25 +23,65 @@ body {
   right: 0;
 }
 
-
-
 .cover {
   background-color: rgba(255, 255, 255, 0.2);
   height: 350px;
   width: 350px;
   border-radius: 50%;
-  position: relative;
+  position: absolute;
   bottom: 65px;
   overflow: hidden;
   box-shadow: inset 0px 0px 10px 6px rgba(255, 255, 255, 0.888), inset 0px 0px 23px 12px rgba(255, 255, 255, 0.433);
+}
+
+
+.door{
+  display: flex;
+  height: var(--doorH);
+  width: var(--doorW);
+  background-color: grey;
+  position: absolute;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.door1{
+  left: var(--doorLeftBorder) ;
+  top: var(--doorTopBorder);
+}
+.door2{
+  left: calc(var(--doorLeftBorder) + var(--doorW));
+  top: var(--doorTopBorder);
+}
+.door3{
+  left: calc(var(--doorLeftBorder) + (var(--doorW) * 3));
+  top: var(--doorTopBorder);
+}
+
+.overdoor{
+  height: calc(var(--doorH) / 8);
+  width: calc(var(--doorW)*4);
+  background-color: grey;
+  position: absolute;
+  left: var(--doorLeftBorder);
+  top: calc(var(--doorTopBorder) - (var(--doorH) / 8));
+}
+
+
+.cristal {
+  height: calc(var(--doorH) / 7);
+  width: calc(var(--doorH) / 7);
+  background-color: aqua;
+  margin: calc(var(--doorH) / 24);
+  box-shadow: inset 0.5px 0.5px 1px 0.5px rgb(50, 50, 50);
 }
 
 .bottom {
   background-color: #c1272e;
   height: 70px;
   width: 260px;
-  position: relative;
-  bottom: 100px;
+  position: absolute;
+  bottom: 30px;
   left: 47px;
 }
 
