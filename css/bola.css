@@ -26,11 +26,7 @@ body {
   position: relative;
   bottom: 65px;
   overflow: hidden;
-<<<<<<< HEAD
-  box-shadow: inset 0px 0px 10px 6px rgba(255, 255, 255, 0.888), inset px 0px 23px 12px rgba(255, 255, 255, 0.433);
-=======
   box-shadow: inset 0px 0px 10px 6px rgba(255, 255, 255, 0.888), inset 0px 0px 23px 12px rgba(255, 255, 255, 0.433);
->>>>>>> main
 }
 
 .bottom {
