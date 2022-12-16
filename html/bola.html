@@ -5,47 +5,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" media="all" href="../css/bola.css">
-    <script src="../js/bola.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="../css/bola.css">
     <title>Document</title>
 </head>
 
 <body>
-    <div class="container">
-        
-        
-        <div class="snowfall"></div>
-        <div class="cover"></div>
-        <div class="door door1">
-            <div class="cristal"></div>
-            <div class="cristal"></div>
-            <div class="cristal"></div>
-            <div class="cristal"></div>
-            <div class="cristal"></div>
-            <div class="cristal"></div>
-        </div>
-        <div class="door door2">
-            <div class="cristal"></div>
-            <div class="cristal"></div>
-            <div class="cristal"></div>
-            <div class="cristal"></div>
-            <div class="cristal"></div>
-            <div class="cristal"></div>
-        </div>
-        <div class="overdoor"></div>
-        <div class="door door3">
-            <div class="cristal"></div>
-            <div class="cristal"></div>
-            <div class="cristal"></div>
-            <div class="cristal"></div>
-            <div class="cristal"></div>
-            <div class="cristal"></div>
-        </div>
-        <div class="bottom">
-            <div class="bt1"></div>
-            <div class="bt2"></div>
-        </div>
-        
+    <div>
+
+        <div id="rectangle1"></div>
+        <div id="side1"></div>
+        <div id="side2"></div>
+        <div id="b1"></div>
+        <div id="b2"></div>
+        <div id="window1"></div>
+        <div id="b1w1"></div>
+        <div id="b2w1"></div>
+        <div id="b3w1"></div>
+        <div id="window2"></div>
+        <div id="b1w2"></div>
+        <div id="b2w2"></div>
+        <div id="b3w2"></div>
+      
+        <div id="window3"></div>
+        <div id="b1w3"></div>
+        <div id="b2w3"></div>
+        <div id="b3w3"></div>
+        <div id="window4"></div>
+        <div id="b1w4"></div>
+        <div id="b2w4"></div>
+        <div id="b3w4"></div>
+   
+        <div id="s1"></div>
+        <div id="s2"></div>
+        <div id="s3"></div>
+        <div id="s4"></div>
+    
+        <div id="shadow1"></div>
+        <div id="shadow2"></div>
+        <div id="shadow3"></div>
+        <div id="shadow4"></div>
+        <div id="door"></div>
+        <div id="door1"></div>
+        <div id="base"></div>
+  
+
+        <svg xmlns="http://www.w3.org/2000/svg">
+            <pattern id="pattern" width="99" height="70" patternUnits="userSpaceOnUse">
+              <path d="m0 67h96V35H0V32h47V0h3v32h49V0H0" />
+            </pattern>
+            <filter id="filter">
+              <feDropShadow dx="0" dy="0" result="s" />
+              <feTurbulence type="fractalNoise" baseFrequency=".01" numOctaves="9" />
+              <feComposite in="s" operator="arithmetic" k2=".7" k3=".35" />
+              <feDiffuseLighting lighting-color="#f84" surfaceScale="9">
+                <feDistantLight azimuth="225" elevation="9" />
+              </feDiffuseLighting>
+            </filter>
+            <rect width="100%" height="100%" fill="url(#pattern)" filter="url(#filter)" />
+        </svg>
+
+    </div>
 </body>
 
 </html>
