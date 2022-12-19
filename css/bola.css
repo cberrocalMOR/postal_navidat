@@ -27,13 +27,46 @@ line{
 
 }
 
+#rectangle2
+{
+    position: absolute;
+    top: 55vh;
+    left: 60vw;
+    background-color: rgb(170, 168, 168);
+    width: 30vw;
+    height:40vh;
+
+}
+
 #base
 {
     position: absolute;
     top: 94vh;
     left: 34.5vw;
-    background-color: gray;
-    width: 29vw;
+    background-color: grey;
+    width: 59.5vw;
+    height:3vh;
+
+}
+
+#base2
+{
+    position: absolute;
+    top: 70vh;
+    left: 17vw;
+    background-color: grey;
+    width: 20vw;
+    height:3vh;
+
+}
+
+#base3
+{
+    position: absolute;
+    top: 52vh;
+    left: 60vw;
+    background-color: grey;
+    width: 34vw;
     height:3vh;
 
 }
@@ -60,6 +93,28 @@ line{
 
 }
 
+#side3
+{
+    position: absolute;
+    top: 70vh;
+    left: 18vw;
+    background-color: grey;
+    width: 1.5vw;
+    height:27vh;
+
+}
+
+#side4
+{
+    position: absolute;
+    top: 55vh;
+    right: 8.5vw;
+    background-color: grey;
+    width: 1.5vw;
+    height:40vh;
+
+}
+
 #b1
 {
     position: absolute;
@@ -75,6 +130,13 @@ svg{
     top: 78.6vh;
     width: 22vw;
     left: 38vw;
+}
+
+svg1{
+    position: absolute;
+    top: 78.6vh;
+    width: 22vw;
+    left: 40vw;
 }
 
 
@@ -255,6 +317,88 @@ svg{
     z-index: 1;
 }
 
+#window5
+{
+    position: absolute;
+    top: 56.7vh;
+    left: 65.45vw;
+    background-color: #14afab;
+    border: 5px solid rgb(88, 88, 88);
+    width: 5vw;
+    height:14vh;
+}
+
+#b1w5{
+    position:absolute;
+    background-color: black;
+    width: 5vw;
+    height: 2vh;
+    top: 57.2vh;
+    left: 65.75vw;
+    z-index: 1;
+}
+
+#b2w5{
+    position:absolute;
+    background-color: black;
+    width: 5vw;
+    height: 2vh;
+    top: 61.4vh;
+    left: 65.75vw;
+    z-index: 1;
+}
+
+#b3w5{
+    position:absolute;
+    background-color: black;
+    width: 5vw;
+    height: 2vh;
+    top: 65.6vh;
+    left: 65.75vw;
+    z-index: 1;
+}
+
+#window6
+{
+    position: absolute;
+    top: 56.7vh;
+    left: 75.45vw;
+    background-color: #14afab;
+    border: 5px solid rgb(88, 88, 88);
+    width: 5vw;
+    height:14vh;
+}
+
+#b1w6{
+    position:absolute;
+    background-color: black;
+    width: 5vw;
+    height: 2vh;
+    top: 57.2vh;
+    left: 75.75vw;
+    z-index: 1;
+}
+
+#b2w6{
+    position:absolute;
+    background-color: black;
+    width: 5vw;
+    height: 2vh;
+    top: 61.4vh;
+    left: 75.75vw;
+    z-index: 1;
+}
+
+#b3w6{
+    position:absolute;
+    background-color: black;
+    width: 5vw;
+    height: 2vh;
+    top: 65.6vh;
+    left: 75.75vw;
+    z-index: 1;
+}
+
 
 #s1
 {
@@ -296,6 +440,28 @@ svg{
     clip-path: polygon(30% 0, 100% 0 , 0 75%, 0 25%);
     top: 57.3vh;
     left: 50.8vw;
+    width: 5vw;
+    height:14vh;
+}
+
+#s5
+{
+    position: absolute;
+    background-color: #97dbda;
+    clip-path: polygon(30% 0, 100% 0 , 0 75%, 0 25%);
+    top: 57.3vh;
+    left: 65.8vw;
+    width: 5vw;
+    height:14vh;
+}
+
+#s6
+{
+    position: absolute;
+    background-color: #97dbda;
+    clip-path: polygon(30% 0, 100% 0 , 0 75%, 0 25%);
+    top: 57.3vh;
+    left: 75.75vw;
     width: 5vw;
     height:14vh;
 }
