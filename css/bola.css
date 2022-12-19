@@ -1,8 +1,10 @@
 :root{
   --doorH: 30px;
   --doorW: calc(var(--doorH) / 2);
-  --doorLeftBorder: 170px;
-  --doorTopBorder: 180px;
+  --doorLeftBorder: 180px;
+  --doorTopBorder: 185px;
+  --fenceWidth: 1.8px;
+  --fenceHeight: calc(var(--fenceWidth) * 10);
 }
 
 body {
@@ -22,6 +24,46 @@ body {
   left: 0;
   right: 0;
 }
+
+.fenceBar{
+  width: var(--fenceWidth);
+  height: var(--fenceHeight);
+  left: calc(var(--fenceWidth)*2);
+  background-color: gray;
+  position: absolute;
+  
+}
+
+.fenceBar2{
+  left: calc(var(--fenceWidth)*5);
+}
+
+.fenceBar3{
+  left: calc(var(--fenceWidth)*8);
+}
+.fenceBar4{
+  left: calc(var(--fenceWidth)*11);
+}
+
+.fenceUpper{
+  height: var(--fenceWidth);
+  width: calc(var(--fenceHeight)*1.4);
+  background-color: gray;
+  border-radius: 2px;
+}
+
+.fenceBar5{
+
+  margin-top: var(--fenceHeight);
+}
+
+.fenceCont{
+  position: absolute;
+  bottom: 140px;
+  left:80px;
+}
+
+
 
 .cover {
   background-color: rgba(255, 255, 255, 0.2);
@@ -44,6 +86,16 @@ body {
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
+}
+
+.snowyFloor{
+  height: 50px;
+  width: 210px;
+  background-color: white;
+  position: absolute;
+  border-radius: 10px;
+  bottom: 85px;
+  left: 70px;
 }
 .door1{
   left: var(--doorLeftBorder) ;
