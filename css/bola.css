@@ -135,6 +135,7 @@ body {
   position: absolute;
   bottom: 30px;
   left: 47px;
+  z-index: 2;
 }
 
 .bt1,
