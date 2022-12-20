@@ -13,50 +13,6 @@ body {
   margin: 0;
 }
 
-
-#rectangle2
-{
-    position: absolute;
-    top: 55vh;
-    left: 60vw;
-    background-color: rgb(170, 168, 168);
-    width: 30vw;
-    height:40vh;
-
-}
-
-#base
-{
-    position: absolute;
-    top: 94vh;
-    left: 34.5vw;
-    background-color: grey;
-    width: 59.5vw;
-    height:3vh;
-
-}
-
-#base2
-{
-    position: absolute;
-    top: 70vh;
-    left: 17vw;
-    background-color: grey;
-    width: 20vw;
-    height:3vh;
-
-}
-
-#base3
-{
-    position: absolute;
-    top: 52vh;
-    left: 60vw;
-    background-color: grey;
-    width: 34vw;
-    height:3vh;
-
-
 .container {
   height: 350px;
   width: 350px;
@@ -67,7 +23,6 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-
 }
 
 .fenceBar{
@@ -83,70 +38,18 @@ body {
   left: calc(var(--fenceWidth)*5);
 }
 
-
-#side3
-{
-    position: absolute;
-    top: 70vh;
-    left: 18vw;
-    background-color: grey;
-    width: 1.5vw;
-    height:27vh;
-
-}
-
-#side4
-{
-    position: absolute;
-    top: 55vh;
-    right: 8.5vw;
-    background-color: grey;
-    width: 1.5vw;
-    height:40vh;
-
-}
-
-#b1
-{
-    position: absolute;
-    top: 28vh;
-    left: 36.55vw;
-    background-color: grey;
-    width: 24.85vw;
-    height:4vh;
-
 .fenceBar3{
   left: calc(var(--fenceWidth)*8);
-
 }
 .fenceBar4{
   left: calc(var(--fenceWidth)*11);
 }
-
-
-svg1{
-    position: absolute;
-    top: 78.6vh;
-    width: 22vw;
-    left: 40vw;
-}
-
-
-#b2
-{
-    position: absolute;
-    top: 25vh;
-    left: 34.5vw;
-    background-color: grey;
-    width: 29vw;
-    height:3vh;
 
 .fenceUpper{
   height: var(--fenceWidth);
   width: calc(var(--fenceHeight)*1.4);
   background-color: gray;
   border-radius: 2px;
-
 }
 
 .fenceBar5{
@@ -245,103 +148,8 @@ svg1{
   border-radius: 10px;
 }
 
-
-#window5
-{
-    position: absolute;
-    top: 56.7vh;
-    left: 65.45vw;
-    background-color: #14afab;
-    border: 5px solid rgb(88, 88, 88);
-    width: 5vw;
-    height:14vh;
-}
-
-#b1w5{
-    position:absolute;
-    background-color: black;
-    width: 5vw;
-    height: 2vh;
-    top: 57.2vh;
-    left: 65.75vw;
-    z-index: 1;
-}
-
-#b2w5{
-    position:absolute;
-    background-color: black;
-    width: 5vw;
-    height: 2vh;
-    top: 61.4vh;
-    left: 65.75vw;
-    z-index: 1;
-}
-
-#b3w5{
-    position:absolute;
-    background-color: black;
-    width: 5vw;
-    height: 2vh;
-    top: 65.6vh;
-    left: 65.75vw;
-    z-index: 1;
-}
-
-#window6
-{
-    position: absolute;
-    top: 56.7vh;
-    left: 75.45vw;
-    background-color: #14afab;
-    border: 5px solid rgb(88, 88, 88);
-    width: 5vw;
-    height:14vh;
-}
-
-#b1w6{
-    position:absolute;
-    background-color: black;
-    width: 5vw;
-    height: 2vh;
-    top: 57.2vh;
-    left: 75.75vw;
-    z-index: 1;
-}
-
-#b2w6{
-    position:absolute;
-    background-color: black;
-    width: 5vw;
-    height: 2vh;
-    top: 61.4vh;
-    left: 75.75vw;
-    z-index: 1;
-}
-
-#b3w6{
-    position:absolute;
-    background-color: black;
-    width: 5vw;
-    height: 2vh;
-    top: 65.6vh;
-    left: 75.75vw;
-    z-index: 1;
-}
-
-
-#s1
-{
-    position: absolute;
-    background-color: #97dbda;
-    clip-path: polygon(30% 0, 100% 0 , 0 75%, 0 25%);
-    top: 36vh;
-    left: 41.55vw;
-    width: 5vw;
-    height:14vh;
-
 .bt1 {
   bottom: 12px;
-
 }
 
 .bt2 {
@@ -368,35 +176,10 @@ svg1{
     transform: rotate(160deg) translateX(80px) rotate(-160deg);
   }
 
-
-#s5
-{
-    position: absolute;
-    background-color: #97dbda;
-    clip-path: polygon(30% 0, 100% 0 , 0 75%, 0 25%);
-    top: 57.3vh;
-    left: 65.8vw;
-    width: 5vw;
-    height:14vh;
-}
-
-#s6
-{
-    position: absolute;
-    background-color: #97dbda;
-    clip-path: polygon(30% 0, 100% 0 , 0 75%, 0 25%);
-    top: 57.3vh;
-    left: 75.75vw;
-    width: 5vw;
-    height:14vh;
-}
-
-
   100% {
     transform: rotate(20deg) translateX(80px) rotate(-20deg);
   }
 }
-
 
 @keyframes mooving {
   from {
