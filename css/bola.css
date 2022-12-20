@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 :root{
   --doorH: 30px;
   --doorW: calc(var(--doorH) / 2);
@@ -190,15 +189,8 @@ body {
   to {
     top: 100%;
   }
-||||||| 6b7463a
-div
-{
-    resize: both;
 }
-    body{
-    background-color: #ebe7f5;
-    transition: 4s;
-=======
+
 :root{
   --doorH: 30px;
   --doorW: calc(var(--doorH) / 2);
@@ -206,10 +198,8 @@ div
   --doorTopBorder: 185px;
   --fenceWidth: 1.8px;
   --fenceHeight: calc(var(--fenceWidth) * 10);
->>>>>>> c3b8b89bf16aa88efc82ea513f878f6103c6866e
 }
 
-<<<<<<< HEAD
 line{
   position: absolute;
   background-color: white;
@@ -227,32 +217,12 @@ line{
   background-color: rgb(170, 168, 168);
   width: 23vw;
   height:64vh;
+}
 
-||||||| 6b7463a
-line{
-    position: absolute;
-    background-color: white;
-    width: 0.3vw;
-    height:14vh;
-  }
-
-
-
-#rectangle1
-{
-    position: absolute;
-    top: 32vh;
-    left: 38vw;
-    background-color: rgb(170, 168, 168);
-    width: 23vw;
-    height:64vh;
-
-=======
 body {
   background-color: #241e4e;
   padding: 0;
   margin: 0;
->>>>>>> c3b8b89bf16aa88efc82ea513f878f6103c6866e
 }
 
 
@@ -297,9 +267,8 @@ body {
   background-color: grey;
   width: 34vw;
   height:3vh;
+}
 
-
-<<<<<<< HEAD
 #side1
 {
   position: absolute;
@@ -308,16 +277,7 @@ body {
   background-color: grey;
   width: 1.5vw;
   height:64vh;
-||||||| 6b7463a
-#side1
-{
-    position: absolute;
-    top: 32vh;
-    left: 36.55vw;
-    background-color: grey;
-    width: 1.5vw;
-    height:64vh;
-=======
+}
 .container {
   height: 350px;
   width: 350px;
@@ -328,11 +288,9 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
->>>>>>> c3b8b89bf16aa88efc82ea513f878f6103c6866e
 
 }
 
-<<<<<<< HEAD
 #side2
 {
   position: absolute;
@@ -341,18 +299,7 @@ body {
   background-color: grey;
   width: 1.5vw;
   height:64vh;
-
-||||||| 6b7463a
-#side2
-{
-    position: absolute;
-    top: 32vh;
-    left: 59.9vw;
-    background-color: grey;
-    width: 1.5vw;
-    height:64vh;
-
-=======
+}
 .fenceBar{
   width: var(--fenceWidth);
   height: var(--fenceHeight);
@@ -360,7 +307,6 @@ body {
   background-color: gray;
   position: absolute;
   
->>>>>>> c3b8b89bf16aa88efc82ea513f878f6103c6866e
 }
 
 .fenceBar2{
@@ -392,53 +338,28 @@ body {
 
 #b1
 {
-<<<<<<< HEAD
   position: absolute;
   top: 28vh;
   left: 36.55vw;
   background-color: grey;
   width: 24.85vw;
   height:4vh;
-||||||| 6b7463a
-    position: absolute;
-    top: 28vh;
-    left: 36.55vw;
-    background-color: grey;
-    width: 24.85vw;
-    height:4vh;
-=======
-    position: absolute;
-    top: 28vh;
-    left: 36.55vw;
-    background-color: grey;
-    width: 24.85vw;
-    height:4vh;
 
+}
 .fenceBar3{
   left: calc(var(--fenceWidth)*8);
 
 }
 .fenceBar4{
   left: calc(var(--fenceWidth)*11);
->>>>>>> c3b8b89bf16aa88efc82ea513f878f6103c6866e
 }
 
-<<<<<<< HEAD
 svg{
   position: absolute;
   top: 78.6vh;
   width: 22vw;
   left: 38vw;
 }
-||||||| 6b7463a
-svg{
-    position: absolute;
-    top: 78.6vh;
-    width: 22vw;
-    left: 38vw;
-}
-=======
->>>>>>> c3b8b89bf16aa88efc82ea513f878f6103c6866e
 
 svg1{
   position: absolute;
@@ -456,7 +377,7 @@ svg1{
   background-color: grey;
   width: 29vw;
   height:3vh;
-
+}
 .fenceUpper{
   height: var(--fenceWidth);
   width: calc(var(--fenceHeight)*1.4);
@@ -465,7 +386,6 @@ svg1{
 
 }
 
-<<<<<<< HEAD
 #window1
 {
   position: absolute;
@@ -475,24 +395,12 @@ svg1{
   border: 5px solid rgb(88, 88, 88);
   width: 5vw;
   height:14vh;
-||||||| 6b7463a
-#window1
-{
-    position: absolute;
-    top: 35.25vh;
-    left: 41.3vw;
-    background-color: #14afab;
-    border: 5px solid rgb(88, 88, 88);
-    width: 5vw;
-    height:14vh;
-=======
+}
 .fenceBar5{
 
   margin-top: var(--fenceHeight);
->>>>>>> c3b8b89bf16aa88efc82ea513f878f6103c6866e
 }
 
-<<<<<<< HEAD
 #b1w1{
   position:absolute;
   background-color: black;
@@ -521,45 +429,14 @@ svg1{
   top: 44.5vh;
   left: 41.58vw;
   z-index: 1;
-||||||| 6b7463a
-#b1w1{
-    position:absolute;
-    background-color: black;
-    width: 5vw;
-    height: 2vh;
-    top: 35.8vh;
-    left: 41.58vw;
-    z-index: 1;
 }
-
-#b2w1{
-    position:absolute;
-    background-color: black;
-    width: 5vw;
-    height: 2vh;
-    top: 40vh;
-    left: 41.58vw;
-    z-index: 1;
-}
-
-#b3w1{
-    position:absolute;
-    background-color: black;
-    width: 5vw;
-    height: 2vh;
-    top: 44.5vh;
-    left: 41.58vw;
-    z-index: 1;
-=======
 .fenceCont{
   position: absolute;
   bottom: 140px;
   left:80px;
->>>>>>> c3b8b89bf16aa88efc82ea513f878f6103c6866e
 }
 
 
-<<<<<<< HEAD
 #window2
 {
   position: absolute;
@@ -570,21 +447,7 @@ svg1{
   width: 5vw;
   height:14vh;
 }
-||||||| 6b7463a
-#window2
-{
-    position: absolute;
-    top: 35.25vh;
-    left: 50.45vw;
-    background-color: #14afab;
-    border: 5px solid rgb(88, 88, 88);
-    width: 5vw;
-    height:14vh;
-}
-=======
->>>>>>> c3b8b89bf16aa88efc82ea513f878f6103c6866e
 
-<<<<<<< HEAD
 #b1w2{
   position:absolute;
   background-color: black;
@@ -613,36 +476,7 @@ svg1{
   top: 44.5vh;
   left: 50.75vw;
   z-index: 1;
-||||||| 6b7463a
-#b1w2{
-    position:absolute;
-    background-color: black;
-    width: 5vw;
-    height: 2vh;
-    top: 35.7vh;
-    left: 50.75vw;
-    z-index: 1;
 }
-
-#b2w2{
-    position:absolute;
-    background-color: black;
-    width: 5vw;
-    height: 2vh;
-    top: 40vh;
-    left: 50.75vw;
-    z-index: 1;
-}
-
-#b3w2{
-    position:absolute;
-    background-color: black;
-    width: 5vw;
-    height: 2vh;
-    top: 44.5vh;
-    left: 50.75vw;
-    z-index: 1;
-=======
 .cover {
   background-color: rgba(255, 255, 255, 0.2);
   height: 350px;
@@ -652,11 +486,9 @@ svg1{
   bottom: 65px;
   overflow: hidden;
   box-shadow: inset 0px 0px 10px 6px rgba(255, 255, 255, 0.888), inset 0px 0px 23px 12px rgba(255, 255, 255, 0.433);
->>>>>>> c3b8b89bf16aa88efc82ea513f878f6103c6866e
 }
 
 
-<<<<<<< HEAD
 #window3
 {
   position: absolute;
@@ -666,17 +498,7 @@ svg1{
   border: 5px solid rgb(88, 88, 88);
   width: 5vw;
   height:14vh;
-||||||| 6b7463a
-#window3
-{
-    position: absolute;
-    top: 56.7vh;
-    left: 41.3vw;
-    background-color: #14afab;
-    border: 5px solid rgb(88, 88, 88);
-    width: 5vw;
-    height:14vh;
-=======
+}
 .door{
   display: flex;
   height: var(--doorH);
@@ -686,10 +508,8 @@ svg1{
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
->>>>>>> c3b8b89bf16aa88efc82ea513f878f6103c6866e
 }
 
-<<<<<<< HEAD
 #b1w3{
   position:absolute;
   background-color: black;
@@ -698,16 +518,7 @@ svg1{
   top: 57.2vh;
   left: 41.58vw;
   z-index: 1;
-||||||| 6b7463a
-#b1w3{
-    position:absolute;
-    background-color: black;
-    width: 5vw;
-    height: 2vh;
-    top: 57.2vh;
-    left: 41.58vw;
-    z-index: 1;
-=======
+}
 .snowyFloor{
   height: 50px;
   width: 210px;
@@ -728,10 +539,8 @@ svg1{
 .door3{
   left: calc(var(--doorLeftBorder) + (var(--doorW) * 3));
   top: var(--doorTopBorder);
->>>>>>> c3b8b89bf16aa88efc82ea513f878f6103c6866e
 }
 
-<<<<<<< HEAD
 #b2w3{
   position:absolute;
   background-color: black;
@@ -740,16 +549,7 @@ svg1{
   top: 61.4vh;
   left: 41.58vw;
   z-index: 1;
-||||||| 6b7463a
-#b2w3{
-    position:absolute;
-    background-color: black;
-    width: 5vw;
-    height: 2vh;
-    top: 61.4vh;
-    left: 41.58vw;
-    z-index: 1;
-=======
+}
 .overdoor{
   height: calc(var(--doorH) / 8);
   width: calc(var(--doorW)*4);
@@ -757,10 +557,8 @@ svg1{
   position: absolute;
   left: var(--doorLeftBorder);
   top: calc(var(--doorTopBorder) - (var(--doorH) / 8));
->>>>>>> c3b8b89bf16aa88efc82ea513f878f6103c6866e
 }
 
-<<<<<<< HEAD
 #b3w3{
   position:absolute;
   background-color: black;
@@ -769,16 +567,7 @@ svg1{
   top: 65.6vh;
   left: 41.58vw;
   z-index: 1;
-||||||| 6b7463a
-#b3w3{
-    position:absolute;
-    background-color: black;
-    width: 5vw;
-    height: 2vh;
-    top: 65.6vh;
-    left: 41.58vw;
-    z-index: 1;
-=======
+}
 
 .cristal {
   height: calc(var(--doorH) / 7);
@@ -786,10 +575,8 @@ svg1{
   background-color: aqua;
   margin: calc(var(--doorH) / 24);
   box-shadow: inset 0.5px 0.5px 1px 0.5px rgb(50, 50, 50);
->>>>>>> c3b8b89bf16aa88efc82ea513f878f6103c6866e
 }
 
-<<<<<<< HEAD
 #window4
 {
   position: absolute;
@@ -799,17 +586,7 @@ svg1{
   border: 5px solid rgb(88, 88, 88);
   width: 5vw;
   height:14vh;
-||||||| 6b7463a
-#window4
-{
-    position: absolute;
-    top: 56.7vh;
-    left: 50.45vw;
-    background-color: #14afab;
-    border: 5px solid rgb(88, 88, 88);
-    width: 5vw;
-    height:14vh;
-=======
+}
 .bottom {
   background-color: #c1272e;
   height: 70px;
@@ -818,10 +595,8 @@ svg1{
   bottom: 30px;
   left: 47px;
   z-index: 2;
->>>>>>> c3b8b89bf16aa88efc82ea513f878f6103c6866e
 }
 
-<<<<<<< HEAD
 #b1w4{
   position:absolute;
   background-color: black;
@@ -830,16 +605,7 @@ svg1{
   top: 57.2vh;
   left: 50.75vw;
   z-index: 1;
-||||||| 6b7463a
-#b1w4{
-    position:absolute;
-    background-color: black;
-    width: 5vw;
-    height: 2vh;
-    top: 57.2vh;
-    left: 50.75vw;
-    z-index: 1;
-=======
+}
 .bt1,
 .bt2 {
   background-color: #d33c3c;
@@ -848,10 +614,8 @@ svg1{
   position: relative;
   right: 10px;
   border-radius: 10px;
->>>>>>> c3b8b89bf16aa88efc82ea513f878f6103c6866e
 }
 
-<<<<<<< HEAD
 #b2w4{
   position:absolute;
   background-color: black;
@@ -871,28 +635,6 @@ svg1{
   left: 50.75vw;
   z-index: 1;
 }
-||||||| 6b7463a
-#b2w4{
-    position:absolute;
-    background-color: black;
-    width: 5vw;
-    height: 2vh;
-    top: 61.4vh;
-    left: 50.75vw;
-    z-index: 1;
-}
-
-#b3w4{
-    position:absolute;
-    background-color: black;
-    width: 5vw;
-    height: 2vh;
-    top: 65.6vh;
-    left: 50.75vw;
-    z-index: 1;
-}
-=======
->>>>>>> c3b8b89bf16aa88efc82ea513f878f6103c6866e
 
 #window5
 {
@@ -979,7 +721,6 @@ svg1{
 
 #s1
 {
-<<<<<<< HEAD
   position: absolute;
   background-color: #97dbda;
   clip-path: polygon(30% 0, 100% 0 , 0 75%, 0 25%);
@@ -987,30 +728,13 @@ svg1{
   left: 41.55vw;
   width: 5vw;
   height:14vh;
-||||||| 6b7463a
-    position: absolute;
-    background-color: #97dbda;
-    clip-path: polygon(30% 0, 100% 0 , 0 75%, 0 25%);
-    top: 36vh;
-    left: 41.55vw;
-    width: 5vw;
-    height:14vh;
-=======
-    position: absolute;
-    background-color: #97dbda;
-    clip-path: polygon(30% 0, 100% 0 , 0 75%, 0 25%);
-    top: 36vh;
-    left: 41.55vw;
-    width: 5vw;
-    height:14vh;
+}
 
 .bt1 {
   bottom: 12px;
 
->>>>>>> c3b8b89bf16aa88efc82ea513f878f6103c6866e
 }
 
-<<<<<<< HEAD
 #s2
 {
   position: absolute;
@@ -1020,23 +744,11 @@ svg1{
   left: 50.8vw;
   width: 5vw;
   height:14vh;
-||||||| 6b7463a
-#s2
-{
-    position: absolute;
-    background-color: #97dbda;
-    clip-path: polygon(30% 0, 100% 0 , 0 75%, 0 25%);
-    top: 36vh;
-    left: 50.8vw;
-    width: 5vw;
-    height:14vh;
-=======
+}
 .bt2 {
   top: 40px;
->>>>>>> c3b8b89bf16aa88efc82ea513f878f6103c6866e
 }
 
-<<<<<<< HEAD
 #s3
 {
   position: absolute;
@@ -1046,17 +758,7 @@ svg1{
   left: 41.6vw;
   width: 5vw;
   height:14vh;
-||||||| 6b7463a
-#s3
-{
-    position: absolute;
-    background-color: #97dbda;
-    clip-path: polygon(30% 0, 100% 0 , 0 75%, 0 25%);
-    top: 57.3vh;
-    left: 41.6vw;
-    width: 5vw;
-    height:14vh;
-=======
+}
 /* artal code */
 .bola {
   background-color: rgb(253, 253, 253);
@@ -1066,10 +768,8 @@ svg1{
   border-radius: 100%;
   position: absolute;
   animation: snowing 5s ease-in-out infinite, mooving 9s linear infinite;
->>>>>>> c3b8b89bf16aa88efc82ea513f878f6103c6866e
 }
 
-<<<<<<< HEAD
 #s4
 {
   position: absolute;
@@ -1080,18 +780,6 @@ svg1{
   width: 5vw;
   height:14vh;
 }
-||||||| 6b7463a
-#s4
-{
-    position: absolute;
-    background-color: #97dbda;
-    clip-path: polygon(30% 0, 100% 0 , 0 75%, 0 25%);
-    top: 57.3vh;
-    left: 50.8vw;
-    width: 5vw;
-    height:14vh;
-}
-=======
 @keyframes snowing {
   0% {
     transform: rotate(20deg) translateX(80px) rotate(-20deg);
@@ -1101,8 +789,11 @@ svg1{
     transform: rotate(160deg) translateX(80px) rotate(-160deg);
   }
 
->>>>>>> c3b8b89bf16aa88efc82ea513f878f6103c6866e
+  100% {
+    transform: rotate(20deg) translateX(80px) rotate(-20deg);
+  }
 
+}
 #s5
 {
   position: absolute;
@@ -1127,14 +818,6 @@ svg1{
 
 #iesmor{
 
-<<<<<<< HEAD
-}
-||||||| 6b7463a
-
-=======
-  100% {
-    transform: rotate(20deg) translateX(80px) rotate(-20deg);
-  }
 }
 
 
@@ -1147,4 +830,3 @@ svg1{
     top: 100%;
   }
 }
->>>>>>> c3b8b89bf16aa88efc82ea513f878f6103c6866e
