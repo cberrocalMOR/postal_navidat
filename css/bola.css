@@ -98,6 +98,7 @@ body {
   left: 70px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
@@ -132,6 +133,10 @@ body {
   box-shadow: inset 0.5px 0.5px 1px 0.5px rgb(50, 50, 50);
 }
 >>>>>>> 0decca1 (Intentando juntar bola y edificio)
+=======
+
+
+>>>>>>> d986686 (duped code)
 
 .bottom {
   background-color: #c1272e;
@@ -623,6 +628,7 @@ svg1{
 <<<<<<< HEAD
 =======
 }
+<<<<<<< HEAD
 .snowyFloor{
   height: 50px;
   width: 210px;
@@ -633,6 +639,8 @@ svg1{
   left: 70px;
 >>>>>>> f6d271c (xdxd esto no va)
 }
+=======
+>>>>>>> d986686 (duped code)
 
 .door1{
   left: var(--doorLeftBorder) ;
@@ -718,6 +726,7 @@ svg1{
 <<<<<<< HEAD
 =======
 }
+<<<<<<< HEAD
 .bottom {
   background-color: #c1272e;
   height: 70px;
@@ -728,6 +737,8 @@ svg1{
   z-index: 2;
 >>>>>>> f6d271c (xdxd esto no va)
 }
+=======
+>>>>>>> d986686 (duped code)
 
 #b1w4{
   position:absolute;
@@ -920,6 +931,7 @@ svg1{
 <<<<<<< HEAD
 =======
 }
+<<<<<<< HEAD
 /* artal code */
 .bola {
   background-color: rgb(253, 253, 253);
@@ -931,6 +943,8 @@ svg1{
   animation: snowing 5s ease-in-out infinite, mooving 9s linear infinite;
 >>>>>>> f6d271c (xdxd esto no va)
 }
+=======
+>>>>>>> d986686 (duped code)
 
 #s4
 {
