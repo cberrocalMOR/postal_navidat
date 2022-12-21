@@ -205,7 +205,19 @@ body {
   to {
     top: 100%;
   }
+<<<<<<< HEAD
 >>>>>>> 0decca1 (Intentando juntar bola y edificio)
+=======
+}
+
+:root{
+  --doorH: 30px;
+  --doorW: calc(var(--doorH) / 2);
+  --doorLeftBorder: 180px;
+  --doorTopBorder: 185px;
+  --fenceWidth: 1.8px;
+  --fenceHeight: calc(var(--fenceWidth) * 10);
+>>>>>>> f6d271c (xdxd esto no va)
 }
 
 line{
@@ -226,9 +238,12 @@ line{
   width: 23vw;
   height:64vh;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 0decca1 (Intentando juntar bola y edificio)
+=======
+>>>>>>> f6d271c (xdxd esto no va)
 }
 
 body {
@@ -280,9 +295,12 @@ body {
   width: 34vw;
   height:3vh;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 0decca1 (Intentando juntar bola y edificio)
+=======
+>>>>>>> f6d271c (xdxd esto no va)
 }
 
 #side1
@@ -294,6 +312,9 @@ body {
   width: 1.5vw;
   height:64vh;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6d271c (xdxd esto no va)
 }
 .container {
   height: 350px;
@@ -305,8 +326,11 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
+<<<<<<< HEAD
 =======
 >>>>>>> 0decca1 (Intentando juntar bola y edificio)
+=======
+>>>>>>> f6d271c (xdxd esto no va)
 
 }
 
@@ -319,9 +343,12 @@ body {
   width: 1.5vw;
   height:64vh;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 0decca1 (Intentando juntar bola y edificio)
+=======
+>>>>>>> f6d271c (xdxd esto no va)
 }
 .fenceBar{
   width: var(--fenceWidth);
@@ -368,6 +395,9 @@ body {
   width: 24.85vw;
   height:4vh;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6d271c (xdxd esto no va)
 
 }
 .fenceBar3{
@@ -376,8 +406,11 @@ body {
 }
 .fenceBar4{
   left: calc(var(--fenceWidth)*11);
+<<<<<<< HEAD
 =======
 >>>>>>> 0decca1 (Intentando juntar bola y edificio)
+=======
+>>>>>>> f6d271c (xdxd esto no va)
 }
 
 svg{
@@ -404,6 +437,9 @@ svg1{
   width: 29vw;
   height:3vh;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6d271c (xdxd esto no va)
 }
 .fenceUpper{
   height: var(--fenceWidth);
@@ -425,12 +461,18 @@ svg1{
   width: 5vw;
   height:14vh;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6d271c (xdxd esto no va)
 }
 .fenceBar5{
 
   margin-top: var(--fenceHeight);
+<<<<<<< HEAD
 =======
 >>>>>>> 0decca1 (Intentando juntar bola y edificio)
+=======
+>>>>>>> f6d271c (xdxd esto no va)
 }
 
 #b1w1{
@@ -462,13 +504,19 @@ svg1{
   left: 41.58vw;
   z-index: 1;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6d271c (xdxd esto no va)
 }
 .fenceCont{
   position: absolute;
   bottom: 140px;
   left:80px;
+<<<<<<< HEAD
 =======
 >>>>>>> 0decca1 (Intentando juntar bola y edificio)
+=======
+>>>>>>> f6d271c (xdxd esto no va)
 }
 
 
@@ -512,6 +560,9 @@ svg1{
   left: 50.75vw;
   z-index: 1;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6d271c (xdxd esto no va)
 }
 .cover {
   background-color: rgba(255, 255, 255, 0.2);
@@ -522,8 +573,11 @@ svg1{
   bottom: 65px;
   overflow: hidden;
   box-shadow: inset 0px 0px 10px 6px rgba(255, 255, 255, 0.888), inset 0px 0px 23px 12px rgba(255, 255, 255, 0.433);
+<<<<<<< HEAD
 =======
 >>>>>>> 0decca1 (Intentando juntar bola y edificio)
+=======
+>>>>>>> f6d271c (xdxd esto no va)
 }
 
 
@@ -537,6 +591,9 @@ svg1{
   width: 5vw;
   height:14vh;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6d271c (xdxd esto no va)
 }
 .door{
   display: flex;
@@ -547,8 +604,11 @@ svg1{
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
+<<<<<<< HEAD
 =======
 >>>>>>> 0decca1 (Intentando juntar bola y edificio)
+=======
+>>>>>>> f6d271c (xdxd esto no va)
 }
 
 #b1w3{
@@ -560,6 +620,18 @@ svg1{
   left: 41.58vw;
   z-index: 1;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+}
+.snowyFloor{
+  height: 50px;
+  width: 210px;
+  background-color: white;
+  position: absolute;
+  border-radius: 10px;
+  bottom: 85px;
+  left: 70px;
+>>>>>>> f6d271c (xdxd esto no va)
 }
 
 .door1{
@@ -573,8 +645,11 @@ svg1{
 .door3{
   left: calc(var(--doorLeftBorder) + (var(--doorW) * 3));
   top: var(--doorTopBorder);
+<<<<<<< HEAD
 =======
 >>>>>>> 0decca1 (Intentando juntar bola y edificio)
+=======
+>>>>>>> f6d271c (xdxd esto no va)
 }
 
 #b2w3{
@@ -586,6 +661,9 @@ svg1{
   left: 41.58vw;
   z-index: 1;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6d271c (xdxd esto no va)
 }
 .overdoor{
   height: calc(var(--doorH) / 8);
@@ -594,8 +672,11 @@ svg1{
   position: absolute;
   left: var(--doorLeftBorder);
   top: calc(var(--doorTopBorder) - (var(--doorH) / 8));
+<<<<<<< HEAD
 =======
 >>>>>>> 0decca1 (Intentando juntar bola y edificio)
+=======
+>>>>>>> f6d271c (xdxd esto no va)
 }
 
 #b3w3{
@@ -607,6 +688,9 @@ svg1{
   left: 41.58vw;
   z-index: 1;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6d271c (xdxd esto no va)
 }
 
 .cristal {
@@ -615,8 +699,11 @@ svg1{
   background-color: aqua;
   margin: calc(var(--doorH) / 24);
   box-shadow: inset 0.5px 0.5px 1px 0.5px rgb(50, 50, 50);
+<<<<<<< HEAD
 =======
 >>>>>>> 0decca1 (Intentando juntar bola y edificio)
+=======
+>>>>>>> f6d271c (xdxd esto no va)
 }
 
 #window4
@@ -628,6 +715,18 @@ svg1{
   border: 5px solid rgb(88, 88, 88);
   width: 5vw;
   height:14vh;
+<<<<<<< HEAD
+=======
+}
+.bottom {
+  background-color: #c1272e;
+  height: 70px;
+  width: 260px;
+  position: absolute;
+  bottom: 30px;
+  left: 47px;
+  z-index: 2;
+>>>>>>> f6d271c (xdxd esto no va)
 }
 
 #b1w4{
@@ -639,6 +738,9 @@ svg1{
   left: 50.75vw;
   z-index: 1;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6d271c (xdxd esto no va)
 }
 .bt1,
 .bt2 {
@@ -648,8 +750,11 @@ svg1{
   position: relative;
   right: 10px;
   border-radius: 10px;
+<<<<<<< HEAD
 =======
 >>>>>>> 0decca1 (Intentando juntar bola y edificio)
+=======
+>>>>>>> f6d271c (xdxd esto no va)
 }
 
 #b2w4{
@@ -765,13 +870,19 @@ svg1{
   width: 5vw;
   height:14vh;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6d271c (xdxd esto no va)
 }
 
 .bt1 {
   bottom: 12px;
 
+<<<<<<< HEAD
 =======
 >>>>>>> 0decca1 (Intentando juntar bola y edificio)
+=======
+>>>>>>> f6d271c (xdxd esto no va)
 }
 
 #s2
@@ -784,11 +895,17 @@ svg1{
   width: 5vw;
   height:14vh;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 .bt2 {
   top: 40px;
 =======
 >>>>>>> 0decca1 (Intentando juntar bola y edificio)
+=======
+}
+.bt2 {
+  top: 40px;
+>>>>>>> f6d271c (xdxd esto no va)
 }
 
 #s3
@@ -800,6 +917,19 @@ svg1{
   left: 41.6vw;
   width: 5vw;
   height:14vh;
+<<<<<<< HEAD
+=======
+}
+/* artal code */
+.bola {
+  background-color: rgb(253, 253, 253);
+  width: 5px;
+  height: 5px;
+  top: -27%;
+  border-radius: 100%;
+  position: absolute;
+  animation: snowing 5s ease-in-out infinite, mooving 9s linear infinite;
+>>>>>>> f6d271c (xdxd esto no va)
 }
 
 #s4
@@ -812,7 +942,23 @@ svg1{
   width: 5vw;
   height:14vh;
 }
+<<<<<<< HEAD
+=======
+@keyframes snowing {
+  0% {
+    transform: rotate(20deg) translateX(80px) rotate(-20deg);
+  }
 
+  50% {
+    transform: rotate(160deg) translateX(80px) rotate(-160deg);
+  }
+
+  100% {
+    transform: rotate(20deg) translateX(80px) rotate(-20deg);
+  }
+>>>>>>> f6d271c (xdxd esto no va)
+
+}
 #s5
 {
   position: absolute;
@@ -838,6 +984,7 @@ svg1{
 #iesmor{
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 @keyframes snowing {
@@ -852,6 +999,8 @@ svg1{
   100% {
     transform: rotate(20deg) translateX(80px) rotate(-20deg);
   }
+=======
+>>>>>>> f6d271c (xdxd esto no va)
 }
 
 @keyframes mooving {
@@ -863,6 +1012,9 @@ svg1{
     top: 100%;
   }
 }
+<<<<<<< HEAD
 =======
 }
 >>>>>>> 0decca1 (Intentando juntar bola y edificio)
+=======
+>>>>>>> f6d271c (xdxd esto no va)
