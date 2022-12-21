@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+body {
+    background: #333;
+    padding-top: 150px;
+}
+
+.regalo {
+    width: 410px;
+    margin: 12em auto;
+}
+
+.caja,
+.tapa {
+    background:
+        -webkit-radial-gradient(white 10%, transparent 15.1%),
+        -webkit-radial-gradient(white 7%, transparent 15.1%),
+        #f80000;
+    background-position: 0 0, 25px 25px;
+    background-size: 50px 50px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.caja {
+    width: 400px;
+    height: 250px;
+}
+
+.tapa {
+    width: 400px;
+    height: 70px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 0 2px;
+    background-color: #f80000;
+    /* transiciones */
+    top: 0;
+    left: 0;
+    animation-name: movimientoTapa;
+    animation-duration: 5s;
+    animation-iteration-count: 4;
+    
+}
+
+.caja span,
+.tapa span {
+    position: absolute;
+    display: block;
+    background: rgba(239, 184, 16, 0.8);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.caja span:first-child {
+    width: 100%;
+    height: 100px;
+    top: 80px;
+}
+
+.caja span:last-child,
+.tapa span {
+    width: 60px;
+    height: 100%;
+    left: 170px;
+}
+
+.tapa span {
+    left: 172px;
+}
+
+@keyframes movimientoTapa {
+    50% {
+        transform: rotateZ(10deg);
+        top: -90px;
+        left: 10px;
+    }
+}
+
+.promo h2 {
+    font-size: 30px;
+    top: 500px;
+    font-family: 'Caramel';
+    text-align: center;
+    position: absolute;
+    height: 0;
+    left:40%;
+    animation-name: movimientoTexto;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+h2:nth-child(1) {
+    top: 650px;
+    animation-delay: 0;
+    font-size: 30px;
+}
+
+h2:nth-child(2){
+    top: 700px;
+    animation-delay: 5s;
+    font-size: 30px;   
+    opacity: 0; 
+}
+
+h2:nth-child(3){
+    top: 750px;
+    animation-delay: 10s;
+    font-size: 30px;   
+    opacity: 0; 
+}
+
+h2:nth-child(4){
+    top:800px;
+    animation-delay: 15s;
+    font-size: 30px;   
+    opacity: 0; 
+}
+
+body{
+    background: url("../img/luces.png") no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+@keyframes movimientoTexto {
+    0% {
+        top: 400px;
+        opacity: 1;
+    }
+    50% {
+        top: 320px;
+    }
+    100%{
+        font-size: 50px;
+        opacity: 1;
+    }
+}
