@@ -153,8 +153,8 @@ body {
 line{
   position: absolute;
   background-color: white;
-  width: 0.3vw;
-  height:14vh;
+  width: 0.3px;
+  height:14px;
 }
 
 
@@ -162,11 +162,11 @@ line{
 #rectangle1
 {
   position: absolute;
-  top: 32vh;
-  left: 38vw;
+  top: 32px;
+  left: 38px;
   background-color: rgb(170, 168, 168);
-  width: 23vw;
-  height:64vh;
+  width: 23px;
+  height:64px;
 }
 
 body {
@@ -179,54 +179,54 @@ body {
 #rectangle2
 {
   position: absolute;
-  top: 55vh;
-  left: 60vw;
+  top: 55px;
+  left: 60px;
   background-color: rgb(170, 168, 168);
-  width: 30vw;
-  height:40vh;
+  width: 30px;
+  height:40px;
 
 }
 
 #base
 {
   position: absolute;
-  top: 94vh;
-  left: 34.5vw;
+  top: 94px;
+  left: 34.5px;
   background-color: grey;
-  width: 59.5vw;
-  height:3vh;
+  width: 59.5px;
+  height:3px;
 
 }
 
 #base2
 {
   position: absolute;
-  top: 70vh;
-  left: 17vw;
+  top: 70px;
+  left: 17px;
   background-color: grey;
-  width: 20vw;
-  height:3vh;
+  width: 20px;
+  height:3px;
 
 }
 
 #base3
 {
   position: absolute;
-  top: 52vh;
-  left: 60vw;
+  top: 52px;
+  left: 60px;
   background-color: grey;
-  width: 34vw;
-  height:3vh;
+  width: 34px;
+  height:3px;
 }
 
 #side1
 {
   position: absolute;
-  top: 32vh;
-  left: 36.55vw;
+  top: 32px;
+  left: 36.55px;
   background-color: grey;
-  width: 1.5vw;
-  height:64vh;
+  width: 1.5px;
+  height:64px;
 }
 .container {
   height: 350px;
@@ -244,11 +244,11 @@ body {
 #side2
 {
   position: absolute;
-  top: 32vh;
-  left: 59.9vw;
+  top: 32px;
+  left: 59.9px;
   background-color: grey;
-  width: 1.5vw;
-  height:64vh;
+  width: 1.5px;
+  height:64px;
 }
 .fenceBar{
   width: var(--fenceWidth);
@@ -267,33 +267,33 @@ body {
 #side3
 {
   position: absolute;
-  top: 70vh;
-  left: 18vw;
+  top: 70px;
+  left: 18px;
   background-color: grey;
-  width: 1.5vw;
-  height:27vh;
+  width: 1.5px;
+  height:27px;
 
 }
 
 #side4
 {
   position: absolute;
-  top: 55vh;
-  right: 8.5vw;
+  top: 55px;
+  right: 8.5px;
   background-color: grey;
-  width: 1.5vw;
-  height:40vh;
+  width: 1.5px;
+  height:40px;
 
 }
 
 #b1
 {
   position: absolute;
-  top: 28vh;
-  left: 36.55vw;
+  top: 28px;
+  left: 36.55px;
   background-color: grey;
-  width: 24.85vw;
-  height:4vh;
+  width: 24.85px;
+  height:4px;
 
 }
 .fenceBar3{
@@ -306,27 +306,27 @@ body {
 
 svg{
   position: absolute;
-  top: 78.6vh;
-  width: 22vw;
-  left: 38vw;
+  top: 78.6px;
+  width: 22px;
+  left: 38px;
 }
 
 svg1{
   position: absolute;
-  top: 78.6vh;
-  width: 22vw;
-  left: 40vw;
+  top: 78.6px;
+  width: 22px;
+  left: 40px;
 }
 
 
 #b2
 {
   position: absolute;
-  top: 25vh;
-  left: 34.5vw;
+  top: 25px;
+  left: 34.5px;
   background-color: grey;
-  width: 29vw;
-  height:3vh;
+  width: 29px;
+  height:3px;
 }
 .fenceUpper{
   height: var(--fenceWidth);
@@ -339,12 +339,12 @@ svg1{
 #window1
 {
   position: absolute;
-  top: 35.25vh;
-  left: 41.3vw;
+  top: 35.25px;
+  left: 41.3px;
   background-color: #14afab;
   border: 5px solid rgb(88, 88, 88);
-  width: 5vw;
-  height:14vh;
+  width: 5px;
+  height:14px;
 }
 .fenceBar5{
 
@@ -354,30 +354,30 @@ svg1{
 #b1w1{
   position:absolute;
   background-color: black;
-  width: 5vw;
-  height: 2vh;
-  top: 35.8vh;
-  left: 41.58vw;
+  width: 5px;
+  height: 2px;
+  top: 35.8px;
+  left: 41.58px;
   z-index: 1;
 }
 
 #b2w1{
   position:absolute;
   background-color: black;
-  width: 5vw;
-  height: 2vh;
-  top: 40vh;
-  left: 41.58vw;
+  width: 5px;
+  height: 2px;
+  top: 40px;
+  left: 41.58px;
   z-index: 1;
 }
 
 #b3w1{
   position:absolute;
   background-color: black;
-  width: 5vw;
-  height: 2vh;
-  top: 44.5vh;
-  left: 41.58vw;
+  width: 5px;
+  height: 2px;
+  top: 44.5px;
+  left: 41.58px;
   z-index: 1;
 }
 .fenceCont{
@@ -390,41 +390,41 @@ svg1{
 #window2
 {
   position: absolute;
-  top: 35.25vh;
-  left: 50.45vw;
+  top: 35.25px;
+  left: 50.45px;
   background-color: #14afab;
   border: 5px solid rgb(88, 88, 88);
-  width: 5vw;
-  height:14vh;
+  width: 5px;
+  height:14px;
 }
 
 #b1w2{
   position:absolute;
   background-color: black;
-  width: 5vw;
-  height: 2vh;
-  top: 35.7vh;
-  left: 50.75vw;
+  width: 5px;
+  height: 2px;
+  top: 35.7px;
+  left: 50.75px;
   z-index: 1;
 }
 
 #b2w2{
   position:absolute;
   background-color: black;
-  width: 5vw;
-  height: 2vh;
-  top: 40vh;
-  left: 50.75vw;
+  width: 5px;
+  height: 2px;
+  top: 40px;
+  left: 50.75px;
   z-index: 1;
 }
 
 #b3w2{
   position:absolute;
   background-color: black;
-  width: 5vw;
-  height: 2vh;
-  top: 44.5vh;
-  left: 50.75vw;
+  width: 5px;
+  height: 2px;
+  top: 44.5px;
+  left: 50.75px;
   z-index: 1;
 }
 .cover {
@@ -442,12 +442,12 @@ svg1{
 #window3
 {
   position: absolute;
-  top: 56.7vh;
-  left: 41.3vw;
+  top: 56.7px;
+  left: 41.3px;
   background-color: #14afab;
   border: 5px solid rgb(88, 88, 88);
-  width: 5vw;
-  height:14vh;
+  width: 5px;
+  height:14px;
 }
 .door{
   display: flex;
@@ -463,10 +463,10 @@ svg1{
 #b1w3{
   position:absolute;
   background-color: black;
-  width: 5vw;
-  height: 2vh;
-  top: 57.2vh;
-  left: 41.58vw;
+  width: 5px;
+  height: 2px;
+  top: 57.2px;
+  left: 41.58px;
   z-index: 1;
 }
 
@@ -486,10 +486,10 @@ svg1{
 #b2w3{
   position:absolute;
   background-color: black;
-  width: 5vw;
-  height: 2vh;
-  top: 61.4vh;
-  left: 41.58vw;
+  width: 5px;
+  height: 2px;
+  top: 61.4px;
+  left: 41.58px;
   z-index: 1;
 }
 .overdoor{
@@ -504,10 +504,10 @@ svg1{
 #b3w3{
   position:absolute;
   background-color: black;
-  width: 5vw;
-  height: 2vh;
-  top: 65.6vh;
-  left: 41.58vw;
+  width: 5px;
+  height: 2px;
+  top: 65.6px;
+  left: 41.58px;
   z-index: 1;
 }
 
@@ -522,21 +522,21 @@ svg1{
 #window4
 {
   position: absolute;
-  top: 56.7vh;
-  left: 50.45vw;
+  top: 56.7px;
+  left: 50.45px;
   background-color: #14afab;
   border: 5px solid rgb(88, 88, 88);
-  width: 5vw;
-  height:14vh;
+  width: 5px;
+  height:14px;
 }
 
 #b1w4{
   position:absolute;
   background-color: black;
-  width: 5vw;
-  height: 2vh;
-  top: 57.2vh;
-  left: 50.75vw;
+  width: 5px;
+  height: 2px;
+  top: 57.2px;
+  left: 50.75px;
   z-index: 1;
 }
 .bt1,
@@ -552,102 +552,102 @@ svg1{
 #b2w4{
   position:absolute;
   background-color: black;
-  width: 5vw;
-  height: 2vh;
-  top: 61.4vh;
-  left: 50.75vw;
+  width: 5px;
+  height: 2px;
+  top: 61.4px;
+  left: 50.75px;
   z-index: 1;
 }
 
 #b3w4{
   position:absolute;
   background-color: black;
-  width: 5vw;
-  height: 2vh;
-  top: 65.6vh;
-  left: 50.75vw;
+  width: 5px;
+  height: 2px;
+  top: 65.6px;
+  left: 50.75px;
   z-index: 1;
 }
 
 #window5
 {
   position: absolute;
-  top: 56.7vh;
-  left: 65.45vw;
+  top: 56.7px;
+  left: 65.45px;
   background-color: #14afab;
   border: 5px solid rgb(88, 88, 88);
-  width: 5vw;
-  height:14vh;
+  width: 5px;
+  height:14px;
 }
 
 #b1w5{
   position:absolute;
   background-color: black;
-  width: 5vw;
-  height: 2vh;
-  top: 57.2vh;
-  left: 65.75vw;
+  width: 5px;
+  height: 2px;
+  top: 57.2px;
+  left: 65.75px;
   z-index: 1;
 }
 
 #b2w5{
   position:absolute;
   background-color: black;
-  width: 5vw;
-  height: 2vh;
-  top: 61.4vh;
-  left: 65.75vw;
+  width: 5px;
+  height: 2px;
+  top: 61.4px;
+  left: 65.75px;
   z-index: 1;
 }
 
 #b3w5{
   position:absolute;
   background-color: black;
-  width: 5vw;
-  height: 2vh;
-  top: 65.6vh;
-  left: 65.75vw;
+  width: 5px;
+  height: 2px;
+  top: 65.6px;
+  left: 65.75px;
   z-index: 1;
 }
 
 #window6
 {
   position: absolute;
-  top: 56.7vh;
-  left: 75.45vw;
+  top: 56.7px;
+  left: 75.45px;
   background-color: #14afab;
   border: 5px solid rgb(88, 88, 88);
-  width: 5vw;
-  height:14vh;
+  width: 5px;
+  height:14px;
 }
 
 #b1w6{
   position:absolute;
   background-color: black;
-  width: 5vw;
-  height: 2vh;
-  top: 57.2vh;
-  left: 75.75vw;
+  width: 5px;
+  height: 2px;
+  top: 57.2px;
+  left: 75.75px;
   z-index: 1;
 }
 
 #b2w6{
   position:absolute;
   background-color: black;
-  width: 5vw;
-  height: 2vh;
-  top: 61.4vh;
-  left: 75.75vw;
+  width: 5px;
+  height: 2px;
+  top: 61.4px;
+  left: 75.75px;
   z-index: 1;
 }
 
 #b3w6{
   position:absolute;
   background-color: black;
-  width: 5vw;
-  height: 2vh;
-  top: 65.6vh;
-  left: 75.75vw;
+  width: 5px;
+  height: 2px;
+  top: 65.6px;
+  left: 75.75px;
   z-index: 1;
 }
 
@@ -657,10 +657,10 @@ svg1{
   position: absolute;
   background-color: #97dbda;
   clip-path: polygon(30% 0, 100% 0 , 0 75%, 0 25%);
-  top: 36vh;
-  left: 41.55vw;
-  width: 5vw;
-  height:14vh;
+  top: 36px;
+  left: 41.55px;
+  width: 5px;
+  height:14px;
 }
 
 .bt1 {
@@ -673,10 +673,10 @@ svg1{
   position: absolute;
   background-color: #97dbda;
   clip-path: polygon(30% 0, 100% 0 , 0 75%, 0 25%);
-  top: 36vh;
-  left: 50.8vw;
-  width: 5vw;
-  height:14vh;
+  top: 36px;
+  left: 50.8px;
+  width: 5px;
+  height:14px;
 }
 .bt2 {
   top: 40px;
@@ -687,10 +687,10 @@ svg1{
   position: absolute;
   background-color: #97dbda;
   clip-path: polygon(30% 0, 100% 0 , 0 75%, 0 25%);
-  top: 57.3vh;
-  left: 41.6vw;
-  width: 5vw;
-  height:14vh;
+  top: 57.3px;
+  left: 41.6px;
+  width: 5px;
+  height:14px;
 }
 
 #s4
@@ -698,10 +698,10 @@ svg1{
   position: absolute;
   background-color: #97dbda;
   clip-path: polygon(30% 0, 100% 0 , 0 75%, 0 25%);
-  top: 57.3vh;
-  left: 50.8vw;
-  width: 5vw;
-  height:14vh;
+  top: 57.3px;
+  left: 50.8px;
+  width: 5px;
+  height:14px;
 }
 
 #s5
@@ -709,10 +709,10 @@ svg1{
   position: absolute;
   background-color: #97dbda;
   clip-path: polygon(30% 0, 100% 0 , 0 75%, 0 25%);
-  top: 57.3vh;
-  left: 65.8vw;
-  width: 5vw;
-  height:14vh;
+  top: 57.3px;
+  left: 65.8px;
+  width: 5px;
+  height:14px;
 }
 
 #s6
@@ -720,10 +720,10 @@ svg1{
   position: absolute;
   background-color: #97dbda;
   clip-path: polygon(30% 0, 100% 0 , 0 75%, 0 25%);
-  top: 57.3vh;
-  left: 75.75vw;
-  width: 5vw;
-  height:14vh;
+  top: 57.3px;
+  left: 75.75px;
+  width: 5px;
+  height:14px;
 }
 
 #iesmor{
