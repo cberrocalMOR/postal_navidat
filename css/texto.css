@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
 body {
-    background: #f3c;
+    background: #333;
     padding-top: 150px;
 }
 
@@ -39,6 +39,7 @@ body {
     animation-name: movimientoTapa;
     animation-duration: 5s;
     animation-iteration-count: 4;
+    
 }
 
 .caja span,
