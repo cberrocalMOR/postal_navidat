@@ -12,87 +12,137 @@
 
 <body>
     <div class="container">
-        <div class="snow"></div>
-        <div class="tree1"></div>
-        <div class="tree2"></div>
-        <div class="house">
-            <div class="roof1">
-                <div class="b1"></div>
-                <div class="b2"></div>
-            </div>
-            <div class="wall1">
-                <div class="w3">
-                    <div class="window1">
-                        <div class="glass1"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="wall2">
-                <div class="light">
-                    <div class="w1">
-                        <div class="window">
-                            <div class="glass"></div>
-                        </div>
-                    </div>
-                    <div class="w2">
-                        <div class="window">
-                            <div class="glass"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="door">
-                    <div class="handle"></div>
-                </div>
-                <div class="snw1"></div>
-                <div class="snw2"></div>
-            </div>
-            <div class="wall3">
-                <div class="b3"></div>
-                <div class="b4"></div>
-                <div class="chimney">
-                    <div class="top">
-                        <div class="smoke">
-                            <div class="s1"></div>
-                            <div class="s2"></div>
-                            <div class="s3"></div>
-                        </div>
-                        <div class="shne1"></div>
-                        <div class="shne2"></div>
-                    </div>
-                </div>
-                <div class="sn">
-                    <div class="dr1"></div>
-                    <div class="dr2"></div>
-                    <div class="dr3"></div>
-                </div>
-                <div class="sn1">
-                    <div class="dr4"></div>
-                </div>
-                <div class="sh1"></div>
-                <div class="sh2"></div>
-                <div class="sh3"></div>
-                <div class="sh4"></div>
-                <div class="sh5"></div>
-            </div>
-        </div>
+
+
+        <div id="rectangle1"></div>
+        <div id="rectangle2"></div>
+
+        <div id="side1"></div>
+        <div id="side2"></div>
+        <div id="side3"></div>
+        <div id="side4"></div>
+        
+        <div id="b1"></div>
+        <div id="b2"></div>
+        
+        <div id="window1"></div>
+        <div id="b1w1"></div>
+        <div id="b2w1"></div>
+        <div id="b3w1"></div>
+        
+        <div id="window2"></div>
+        <div id="b1w2"></div>
+        <div id="b2w2"></div>
+        <div id="b3w2"></div>
+      
+        <div id="window3"></div>
+        <div id="b1w3"></div>
+        <div id="b2w3"></div>
+        <div id="b3w3"></div>
+        
+        <div id="window4"></div>
+        <div id="b1w4"></div>
+        <div id="b2w4"></div>
+        <div id="b3w4"></div>
+
+        <div id="window5"></div>
+        <div id="b1w5"></div>
+        <div id="b2w5"></div>
+        <div id="b3w5"></div>
+
+        <div id="window6"></div>
+        <div id="b1w6"></div>
+        <div id="b2w6"></div>
+        <div id="b3w6"></div>
+   
+        <div id="s1"></div>
+        <div id="s2"></div>
+        <div id="s3"></div>
+        <div id="s4"></div>
+        <div id="s5"></div>
+        <div id="s6"></div>
+    
+        <div id="base"></div>
+        <div id="base2"></div>
+        <div id="base3"></div>
+  
+
+        <svg xmlns="http://www.w3.org/2000/svg">
+            <pattern id="pattern" width="99" height="70" patternUnits="userSpaceOnUse">
+              <path d="m0 67h96V35H0V32h47V0h3v32h49V0H0" />
+            </pattern>
+            <filter id="filter">
+              <feDropShadow dx="0" dy="0" result="s" />
+              <feTurbulence type="fractalNoise" baseFrequency=".01" numOctaves="9" />
+              <feComposite in="s" operator="arithmetic" k2=".7" k3=".35" />
+              <feDiffuseLighting lighting-color="#f84" surfaceScale="9">
+                <feDistantLight azimuth="225" elevation="9" />
+              </feDiffuseLighting>
+            </filter>
+            <rect width="100%" height="100%" fill="url(#pattern)" filter="url(#filter)" />
+        </svg>
+
+        
+        <svg1 xmlns="http://www.w3.org/2000/svg">
+          <pattern id="pattern" width="99" height="70" patternUnits="userSpaceOnUse">
+            <path d="m0 67h96V35H0V32h47V0h3v32h49V0H0" />
+          </pattern>
+          <filter id="filter">
+            <feDropShadow dx="0" dy="0" result="s" />
+            <feTurbulence type="fractalNoise" baseFrequency=".01" numOctaves="9" />
+            <feComposite in="s" operator="arithmetic" k2=".7" k3=".35" />
+            <feDiffuseLighting lighting-color="#f84" surfaceScale="9">
+              <feDistantLight azimuth="225" elevation="9" />
+            </feDiffuseLighting>
+          </filter>
+          <rect width="100%" height="100%" fill="url(#pattern)" filter="url(#filter)" />
+      </svg1>
+
+    </div>
+
+
         <div class="snowfall"></div>
         <div class="cover"></div>
+        <div class="door door1">
+            <div class="cristal"></div>
+            <div class="cristal"></div>
+            <div class="cristal"></div>
+            <div class="cristal"></div>
+            <div class="cristal"></div>
+            <div class="cristal"></div>
+        </div>
+        <div class="door door2">
+            <div class="cristal"></div>
+            <div class="cristal"></div>
+            <div class="cristal"></div>
+            <div class="cristal"></div>
+            <div class="cristal"></div>
+            <div class="cristal"></div>
+        </div>
+        <div class="overdoor"></div>
+        <div class="door door3">
+            <div class="cristal"></div>
+            <div class="cristal"></div>
+            <div class="cristal"></div>
+            <div class="cristal"></div>
+            <div class="cristal"></div>
+            <div class="cristal"></div>
+        </div>
+        <div class="snowyFloor">
+        </div>
         <div class="bottom">
             <div class="bt1"></div>
             <div class="bt2"></div>
         </div>
-        <div class="fence">
-            <div class="fn1">
-                <div class="screw"></div>
-            </div>
-            <div class="fn2">
-                <div class="screw"></div>
-            </div>
-            <div class="fn3">
-                <div class="screw"></div>
-            </div>
-            <div class="stck"></div>
+        <div class="fenceCont">
+            <div class="fenceUpper"></div>
+            <div class="fenceBar fenceBar1"></div>
+            <div class="fenceBar fenceBar2"></div>
+            <div class="fenceBar fenceBar3"></div>
+            <div class="fenceBar fenceBar4"></div>
+            <div class="fenceUpper fenceBar5"></div>
         </div>
+
 </body>
 
 </html>
