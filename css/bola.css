@@ -13,50 +13,6 @@ body {
   margin: 0;
 }
 
-
-#rectangle2
-{
-    position: absolute;
-    top: 55vh;
-    left: 60vw;
-    background-color: rgb(170, 168, 168);
-    width: 30vw;
-    height:40vh;
-
-}
-
-#base
-{
-    position: absolute;
-    top: 94vh;
-    left: 34.5vw;
-    background-color: grey;
-    width: 59.5vw;
-    height:3vh;
-
-}
-
-#base2
-{
-    position: absolute;
-    top: 70vh;
-    left: 17vw;
-    background-color: grey;
-    width: 20vw;
-    height:3vh;
-
-}
-
-#base3
-{
-    position: absolute;
-    top: 52vh;
-    left: 60vw;
-    background-color: grey;
-    width: 34vw;
-    height:3vh;
-
-
 .container {
   height: 350px;
   width: 350px;
@@ -67,7 +23,6 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-
 }
 
 .fenceBar{
@@ -83,70 +38,18 @@ body {
   left: calc(var(--fenceWidth)*5);
 }
 
-
-#side3
-{
-    position: absolute;
-    top: 70vh;
-    left: 18vw;
-    background-color: grey;
-    width: 1.5vw;
-    height:27vh;
-
-}
-
-#side4
-{
-    position: absolute;
-    top: 55vh;
-    right: 8.5vw;
-    background-color: grey;
-    width: 1.5vw;
-    height:40vh;
-
-}
-
-#b1
-{
-    position: absolute;
-    top: 28vh;
-    left: 36.55vw;
-    background-color: grey;
-    width: 24.85vw;
-    height:4vh;
-
 .fenceBar3{
   left: calc(var(--fenceWidth)*8);
-
 }
 .fenceBar4{
   left: calc(var(--fenceWidth)*11);
 }
-
-
-svg1{
-    position: absolute;
-    top: 78.6vh;
-    width: 22vw;
-    left: 40vw;
-}
-
-
-#b2
-{
-    position: absolute;
-    top: 25vh;
-    left: 34.5vw;
-    background-color: grey;
-    width: 29vw;
-    height:3vh;
 
 .fenceUpper{
   height: var(--fenceWidth);
   width: calc(var(--fenceHeight)*1.4);
   background-color: gray;
   border-radius: 2px;
-
 }
 
 .fenceBar5{
@@ -194,36 +97,8 @@ svg1{
   bottom: 85px;
   left: 70px;
 }
-.door1{
-  left: var(--doorLeftBorder) ;
-  top: var(--doorTopBorder);
-}
-.door2{
-  left: calc(var(--doorLeftBorder) + var(--doorW));
-  top: var(--doorTopBorder);
-}
-.door3{
-  left: calc(var(--doorLeftBorder) + (var(--doorW) * 3));
-  top: var(--doorTopBorder);
-}
-
-.overdoor{
-  height: calc(var(--doorH) / 8);
-  width: calc(var(--doorW)*4);
-  background-color: grey;
-  position: absolute;
-  left: var(--doorLeftBorder);
-  top: calc(var(--doorTopBorder) - (var(--doorH) / 8));
-}
 
 
-.cristal {
-  height: calc(var(--doorH) / 7);
-  width: calc(var(--doorH) / 7);
-  background-color: aqua;
-  margin: calc(var(--doorH) / 24);
-  box-shadow: inset 0.5px 0.5px 1px 0.5px rgb(50, 50, 50);
-}
 
 .bottom {
   background-color: #c1272e;
@@ -245,103 +120,8 @@ svg1{
   border-radius: 10px;
 }
 
-
-#window5
-{
-    position: absolute;
-    top: 56.7vh;
-    left: 65.45vw;
-    background-color: #14afab;
-    border: 5px solid rgb(88, 88, 88);
-    width: 5vw;
-    height:14vh;
-}
-
-#b1w5{
-    position:absolute;
-    background-color: black;
-    width: 5vw;
-    height: 2vh;
-    top: 57.2vh;
-    left: 65.75vw;
-    z-index: 1;
-}
-
-#b2w5{
-    position:absolute;
-    background-color: black;
-    width: 5vw;
-    height: 2vh;
-    top: 61.4vh;
-    left: 65.75vw;
-    z-index: 1;
-}
-
-#b3w5{
-    position:absolute;
-    background-color: black;
-    width: 5vw;
-    height: 2vh;
-    top: 65.6vh;
-    left: 65.75vw;
-    z-index: 1;
-}
-
-#window6
-{
-    position: absolute;
-    top: 56.7vh;
-    left: 75.45vw;
-    background-color: #14afab;
-    border: 5px solid rgb(88, 88, 88);
-    width: 5vw;
-    height:14vh;
-}
-
-#b1w6{
-    position:absolute;
-    background-color: black;
-    width: 5vw;
-    height: 2vh;
-    top: 57.2vh;
-    left: 75.75vw;
-    z-index: 1;
-}
-
-#b2w6{
-    position:absolute;
-    background-color: black;
-    width: 5vw;
-    height: 2vh;
-    top: 61.4vh;
-    left: 75.75vw;
-    z-index: 1;
-}
-
-#b3w6{
-    position:absolute;
-    background-color: black;
-    width: 5vw;
-    height: 2vh;
-    top: 65.6vh;
-    left: 75.75vw;
-    z-index: 1;
-}
-
-
-#s1
-{
-    position: absolute;
-    background-color: #97dbda;
-    clip-path: polygon(30% 0, 100% 0 , 0 75%, 0 25%);
-    top: 36vh;
-    left: 41.55vw;
-    width: 5vw;
-    height:14vh;
-
 .bt1 {
   bottom: 12px;
-
 }
 
 .bt2 {
@@ -359,6 +139,597 @@ svg1{
   animation: snowing 5s ease-in-out infinite, mooving 9s linear infinite;
 }
 
+
+
+:root{
+  --doorH: 30px;
+  --doorW: calc(var(--doorH) / 2);
+  --doorLeftBorder: 180px;
+  --doorTopBorder: 185px;
+  --fenceWidth: 1.8px;
+  --fenceHeight: calc(var(--fenceWidth) * 10);
+}
+
+line{
+  position: absolute;
+  background-color: white;
+  width: 0.3vw;
+  height:14vh;
+}
+
+
+
+#rectangle1
+{
+  position: absolute;
+  top: 32vh;
+  left: 38vw;
+  background-color: rgb(170, 168, 168);
+  width: 23vw;
+  height:64vh;
+}
+
+body {
+  background-color: #241e4e;
+  padding: 0;
+  margin: 0;
+}
+
+
+#rectangle2
+{
+  position: absolute;
+  top: 55vh;
+  left: 60vw;
+  background-color: rgb(170, 168, 168);
+  width: 30vw;
+  height:40vh;
+
+}
+
+#base
+{
+  position: absolute;
+  top: 94vh;
+  left: 34.5vw;
+  background-color: grey;
+  width: 59.5vw;
+  height:3vh;
+
+}
+
+#base2
+{
+  position: absolute;
+  top: 70vh;
+  left: 17vw;
+  background-color: grey;
+  width: 20vw;
+  height:3vh;
+
+}
+
+#base3
+{
+  position: absolute;
+  top: 52vh;
+  left: 60vw;
+  background-color: grey;
+  width: 34vw;
+  height:3vh;
+}
+
+#side1
+{
+  position: absolute;
+  top: 32vh;
+  left: 36.55vw;
+  background-color: grey;
+  width: 1.5vw;
+  height:64vh;
+}
+.container {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+}
+
+#side2
+{
+  position: absolute;
+  top: 32vh;
+  left: 59.9vw;
+  background-color: grey;
+  width: 1.5vw;
+  height:64vh;
+}
+.fenceBar{
+  width: var(--fenceWidth);
+  height: var(--fenceHeight);
+  left: calc(var(--fenceWidth)*2);
+  background-color: gray;
+  position: absolute;
+  
+}
+
+.fenceBar2{
+  left: calc(var(--fenceWidth)*5);
+}
+
+
+#side3
+{
+  position: absolute;
+  top: 70vh;
+  left: 18vw;
+  background-color: grey;
+  width: 1.5vw;
+  height:27vh;
+
+}
+
+#side4
+{
+  position: absolute;
+  top: 55vh;
+  right: 8.5vw;
+  background-color: grey;
+  width: 1.5vw;
+  height:40vh;
+
+}
+
+#b1
+{
+  position: absolute;
+  top: 28vh;
+  left: 36.55vw;
+  background-color: grey;
+  width: 24.85vw;
+  height:4vh;
+
+}
+.fenceBar3{
+  left: calc(var(--fenceWidth)*8);
+
+}
+.fenceBar4{
+  left: calc(var(--fenceWidth)*11);
+}
+
+svg{
+  position: absolute;
+  top: 78.6vh;
+  width: 22vw;
+  left: 38vw;
+}
+
+svg1{
+  position: absolute;
+  top: 78.6vh;
+  width: 22vw;
+  left: 40vw;
+}
+
+
+#b2
+{
+  position: absolute;
+  top: 25vh;
+  left: 34.5vw;
+  background-color: grey;
+  width: 29vw;
+  height:3vh;
+}
+.fenceUpper{
+  height: var(--fenceWidth);
+  width: calc(var(--fenceHeight)*1.4);
+  background-color: gray;
+  border-radius: 2px;
+
+}
+
+#window1
+{
+  position: absolute;
+  top: 35.25vh;
+  left: 41.3vw;
+  background-color: #14afab;
+  border: 5px solid rgb(88, 88, 88);
+  width: 5vw;
+  height:14vh;
+}
+.fenceBar5{
+
+  margin-top: var(--fenceHeight);
+}
+
+#b1w1{
+  position:absolute;
+  background-color: black;
+  width: 5vw;
+  height: 2vh;
+  top: 35.8vh;
+  left: 41.58vw;
+  z-index: 1;
+}
+
+#b2w1{
+  position:absolute;
+  background-color: black;
+  width: 5vw;
+  height: 2vh;
+  top: 40vh;
+  left: 41.58vw;
+  z-index: 1;
+}
+
+#b3w1{
+  position:absolute;
+  background-color: black;
+  width: 5vw;
+  height: 2vh;
+  top: 44.5vh;
+  left: 41.58vw;
+  z-index: 1;
+}
+.fenceCont{
+  position: absolute;
+  bottom: 140px;
+  left:80px;
+}
+
+
+#window2
+{
+  position: absolute;
+  top: 35.25vh;
+  left: 50.45vw;
+  background-color: #14afab;
+  border: 5px solid rgb(88, 88, 88);
+  width: 5vw;
+  height:14vh;
+}
+
+#b1w2{
+  position:absolute;
+  background-color: black;
+  width: 5vw;
+  height: 2vh;
+  top: 35.7vh;
+  left: 50.75vw;
+  z-index: 1;
+}
+
+#b2w2{
+  position:absolute;
+  background-color: black;
+  width: 5vw;
+  height: 2vh;
+  top: 40vh;
+  left: 50.75vw;
+  z-index: 1;
+}
+
+#b3w2{
+  position:absolute;
+  background-color: black;
+  width: 5vw;
+  height: 2vh;
+  top: 44.5vh;
+  left: 50.75vw;
+  z-index: 1;
+}
+.cover {
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 65px;
+  overflow: hidden;
+  box-shadow: inset 0px 0px 10px 6px rgba(255, 255, 255, 0.888), inset 0px 0px 23px 12px rgba(255, 255, 255, 0.433);
+}
+
+
+#window3
+{
+  position: absolute;
+  top: 56.7vh;
+  left: 41.3vw;
+  background-color: #14afab;
+  border: 5px solid rgb(88, 88, 88);
+  width: 5vw;
+  height:14vh;
+}
+.door{
+  display: flex;
+  height: var(--doorH);
+  width: var(--doorW);
+  background-color: grey;
+  position: absolute;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#b1w3{
+  position:absolute;
+  background-color: black;
+  width: 5vw;
+  height: 2vh;
+  top: 57.2vh;
+  left: 41.58vw;
+  z-index: 1;
+}
+
+.door1{
+  left: var(--doorLeftBorder) ;
+  top: var(--doorTopBorder);
+}
+.door2{
+  left: calc(var(--doorLeftBorder) + var(--doorW));
+  top: var(--doorTopBorder);
+}
+.door3{
+  left: calc(var(--doorLeftBorder) + (var(--doorW) * 3));
+  top: var(--doorTopBorder);
+}
+
+#b2w3{
+  position:absolute;
+  background-color: black;
+  width: 5vw;
+  height: 2vh;
+  top: 61.4vh;
+  left: 41.58vw;
+  z-index: 1;
+}
+.overdoor{
+  height: calc(var(--doorH) / 8);
+  width: calc(var(--doorW)*4);
+  background-color: grey;
+  position: absolute;
+  left: var(--doorLeftBorder);
+  top: calc(var(--doorTopBorder) - (var(--doorH) / 8));
+}
+
+#b3w3{
+  position:absolute;
+  background-color: black;
+  width: 5vw;
+  height: 2vh;
+  top: 65.6vh;
+  left: 41.58vw;
+  z-index: 1;
+}
+
+.cristal {
+  height: calc(var(--doorH) / 7);
+  width: calc(var(--doorH) / 7);
+  background-color: aqua;
+  margin: calc(var(--doorH) / 24);
+  box-shadow: inset 0.5px 0.5px 1px 0.5px rgb(50, 50, 50);
+}
+
+#window4
+{
+  position: absolute;
+  top: 56.7vh;
+  left: 50.45vw;
+  background-color: #14afab;
+  border: 5px solid rgb(88, 88, 88);
+  width: 5vw;
+  height:14vh;
+}
+
+#b1w4{
+  position:absolute;
+  background-color: black;
+  width: 5vw;
+  height: 2vh;
+  top: 57.2vh;
+  left: 50.75vw;
+  z-index: 1;
+}
+.bt1,
+.bt2 {
+  background-color: #d33c3c;
+  height: 20px;
+  width: 280px;
+  position: relative;
+  right: 10px;
+  border-radius: 10px;
+}
+
+#b2w4{
+  position:absolute;
+  background-color: black;
+  width: 5vw;
+  height: 2vh;
+  top: 61.4vh;
+  left: 50.75vw;
+  z-index: 1;
+}
+
+#b3w4{
+  position:absolute;
+  background-color: black;
+  width: 5vw;
+  height: 2vh;
+  top: 65.6vh;
+  left: 50.75vw;
+  z-index: 1;
+}
+
+#window5
+{
+  position: absolute;
+  top: 56.7vh;
+  left: 65.45vw;
+  background-color: #14afab;
+  border: 5px solid rgb(88, 88, 88);
+  width: 5vw;
+  height:14vh;
+}
+
+#b1w5{
+  position:absolute;
+  background-color: black;
+  width: 5vw;
+  height: 2vh;
+  top: 57.2vh;
+  left: 65.75vw;
+  z-index: 1;
+}
+
+#b2w5{
+  position:absolute;
+  background-color: black;
+  width: 5vw;
+  height: 2vh;
+  top: 61.4vh;
+  left: 65.75vw;
+  z-index: 1;
+}
+
+#b3w5{
+  position:absolute;
+  background-color: black;
+  width: 5vw;
+  height: 2vh;
+  top: 65.6vh;
+  left: 65.75vw;
+  z-index: 1;
+}
+
+#window6
+{
+  position: absolute;
+  top: 56.7vh;
+  left: 75.45vw;
+  background-color: #14afab;
+  border: 5px solid rgb(88, 88, 88);
+  width: 5vw;
+  height:14vh;
+}
+
+#b1w6{
+  position:absolute;
+  background-color: black;
+  width: 5vw;
+  height: 2vh;
+  top: 57.2vh;
+  left: 75.75vw;
+  z-index: 1;
+}
+
+#b2w6{
+  position:absolute;
+  background-color: black;
+  width: 5vw;
+  height: 2vh;
+  top: 61.4vh;
+  left: 75.75vw;
+  z-index: 1;
+}
+
+#b3w6{
+  position:absolute;
+  background-color: black;
+  width: 5vw;
+  height: 2vh;
+  top: 65.6vh;
+  left: 75.75vw;
+  z-index: 1;
+}
+
+
+#s1
+{
+  position: absolute;
+  background-color: #97dbda;
+  clip-path: polygon(30% 0, 100% 0 , 0 75%, 0 25%);
+  top: 36vh;
+  left: 41.55vw;
+  width: 5vw;
+  height:14vh;
+}
+
+.bt1 {
+  bottom: 12px;
+
+}
+
+#s2
+{
+  position: absolute;
+  background-color: #97dbda;
+  clip-path: polygon(30% 0, 100% 0 , 0 75%, 0 25%);
+  top: 36vh;
+  left: 50.8vw;
+  width: 5vw;
+  height:14vh;
+}
+.bt2 {
+  top: 40px;
+}
+
+#s3
+{
+  position: absolute;
+  background-color: #97dbda;
+  clip-path: polygon(30% 0, 100% 0 , 0 75%, 0 25%);
+  top: 57.3vh;
+  left: 41.6vw;
+  width: 5vw;
+  height:14vh;
+}
+
+#s4
+{
+  position: absolute;
+  background-color: #97dbda;
+  clip-path: polygon(30% 0, 100% 0 , 0 75%, 0 25%);
+  top: 57.3vh;
+  left: 50.8vw;
+  width: 5vw;
+  height:14vh;
+}
+
+#s5
+{
+  position: absolute;
+  background-color: #97dbda;
+  clip-path: polygon(30% 0, 100% 0 , 0 75%, 0 25%);
+  top: 57.3vh;
+  left: 65.8vw;
+  width: 5vw;
+  height:14vh;
+}
+
+#s6
+{
+  position: absolute;
+  background-color: #97dbda;
+  clip-path: polygon(30% 0, 100% 0 , 0 75%, 0 25%);
+  top: 57.3vh;
+  left: 75.75vw;
+  width: 5vw;
+  height:14vh;
+}
+
+#iesmor{
+
+}
+
 @keyframes snowing {
   0% {
     transform: rotate(20deg) translateX(80px) rotate(-20deg);
@@ -368,35 +739,10 @@ svg1{
     transform: rotate(160deg) translateX(80px) rotate(-160deg);
   }
 
-
-#s5
-{
-    position: absolute;
-    background-color: #97dbda;
-    clip-path: polygon(30% 0, 100% 0 , 0 75%, 0 25%);
-    top: 57.3vh;
-    left: 65.8vw;
-    width: 5vw;
-    height:14vh;
-}
-
-#s6
-{
-    position: absolute;
-    background-color: #97dbda;
-    clip-path: polygon(30% 0, 100% 0 , 0 75%, 0 25%);
-    top: 57.3vh;
-    left: 75.75vw;
-    width: 5vw;
-    height:14vh;
-}
-
-
   100% {
     transform: rotate(20deg) translateX(80px) rotate(-20deg);
   }
 }
-
 
 @keyframes mooving {
   from {
