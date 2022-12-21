@@ -39,10 +39,6 @@ body {
     animation-name: movimientoTapa;
     animation-duration: 5s;
     animation-iteration-count: 4;
-    /*transition:
-        top ease-out 0.5s,
-        left ease-out 0.5s,
-        movimientoTapa ease-out 0.5s;*/
 }
 
 .caja span,
