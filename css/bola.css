@@ -97,8 +97,41 @@ body {
   bottom: 85px;
   left: 70px;
 }
+<<<<<<< HEAD
 
 
+=======
+.door1{
+  left: var(--doorLeftBorder) ;
+  top: var(--doorTopBorder);
+}
+.door2{
+  left: calc(var(--doorLeftBorder) + var(--doorW));
+  top: var(--doorTopBorder);
+}
+.door3{
+  left: calc(var(--doorLeftBorder) + (var(--doorW) * 3));
+  top: var(--doorTopBorder);
+}
+
+.overdoor{
+  height: calc(var(--doorH) / 8);
+  width: calc(var(--doorW)*4);
+  background-color: grey;
+  position: absolute;
+  left: var(--doorLeftBorder);
+  top: calc(var(--doorTopBorder) - (var(--doorH) / 8));
+}
+
+
+.cristal {
+  height: calc(var(--doorH) / 7);
+  width: calc(var(--doorH) / 7);
+  background-color: aqua;
+  margin: calc(var(--doorH) / 24);
+  box-shadow: inset 0.5px 0.5px 1px 0.5px rgb(50, 50, 50);
+}
+>>>>>>> 0decca1 (Intentando juntar bola y edificio)
 
 .bottom {
   background-color: #c1272e;
@@ -139,6 +172,7 @@ body {
   animation: snowing 5s ease-in-out infinite, mooving 9s linear infinite;
 }
 
+<<<<<<< HEAD
 
 
 :root{
@@ -148,6 +182,30 @@ body {
   --doorTopBorder: 185px;
   --fenceWidth: 1.8px;
   --fenceHeight: calc(var(--fenceWidth) * 10);
+=======
+@keyframes snowing {
+  0% {
+    transform: rotate(20deg) translateX(80px) rotate(-20deg);
+  }
+
+  50% {
+    transform: rotate(160deg) translateX(80px) rotate(-160deg);
+  }
+
+  100% {
+    transform: rotate(20deg) translateX(80px) rotate(-20deg);
+  }
+}
+
+@keyframes mooving {
+  from {
+    top: -27%;
+  }
+
+  to {
+    top: 100%;
+  }
+>>>>>>> 0decca1 (Intentando juntar bola y edificio)
 }
 
 line{
@@ -167,6 +225,10 @@ line{
   background-color: rgb(170, 168, 168);
   width: 23vw;
   height:64vh;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0decca1 (Intentando juntar bola y edificio)
 }
 
 body {
@@ -217,6 +279,10 @@ body {
   background-color: grey;
   width: 34vw;
   height:3vh;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0decca1 (Intentando juntar bola y edificio)
 }
 
 #side1
@@ -227,6 +293,7 @@ body {
   background-color: grey;
   width: 1.5vw;
   height:64vh;
+<<<<<<< HEAD
 }
 .container {
   height: 350px;
@@ -238,6 +305,8 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
+=======
+>>>>>>> 0decca1 (Intentando juntar bola y edificio)
 
 }
 
@@ -249,6 +318,10 @@ body {
   background-color: grey;
   width: 1.5vw;
   height:64vh;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0decca1 (Intentando juntar bola y edificio)
 }
 .fenceBar{
   width: var(--fenceWidth);
@@ -294,6 +367,7 @@ body {
   background-color: grey;
   width: 24.85vw;
   height:4vh;
+<<<<<<< HEAD
 
 }
 .fenceBar3{
@@ -302,6 +376,8 @@ body {
 }
 .fenceBar4{
   left: calc(var(--fenceWidth)*11);
+=======
+>>>>>>> 0decca1 (Intentando juntar bola y edificio)
 }
 
 svg{
@@ -327,12 +403,15 @@ svg1{
   background-color: grey;
   width: 29vw;
   height:3vh;
+<<<<<<< HEAD
 }
 .fenceUpper{
   height: var(--fenceWidth);
   width: calc(var(--fenceHeight)*1.4);
   background-color: gray;
   border-radius: 2px;
+=======
+>>>>>>> 0decca1 (Intentando juntar bola y edificio)
 
 }
 
@@ -345,10 +424,13 @@ svg1{
   border: 5px solid rgb(88, 88, 88);
   width: 5vw;
   height:14vh;
+<<<<<<< HEAD
 }
 .fenceBar5{
 
   margin-top: var(--fenceHeight);
+=======
+>>>>>>> 0decca1 (Intentando juntar bola y edificio)
 }
 
 #b1w1{
@@ -379,11 +461,14 @@ svg1{
   top: 44.5vh;
   left: 41.58vw;
   z-index: 1;
+<<<<<<< HEAD
 }
 .fenceCont{
   position: absolute;
   bottom: 140px;
   left:80px;
+=======
+>>>>>>> 0decca1 (Intentando juntar bola y edificio)
 }
 
 
@@ -426,6 +511,7 @@ svg1{
   top: 44.5vh;
   left: 50.75vw;
   z-index: 1;
+<<<<<<< HEAD
 }
 .cover {
   background-color: rgba(255, 255, 255, 0.2);
@@ -436,6 +522,8 @@ svg1{
   bottom: 65px;
   overflow: hidden;
   box-shadow: inset 0px 0px 10px 6px rgba(255, 255, 255, 0.888), inset 0px 0px 23px 12px rgba(255, 255, 255, 0.433);
+=======
+>>>>>>> 0decca1 (Intentando juntar bola y edificio)
 }
 
 
@@ -448,6 +536,7 @@ svg1{
   border: 5px solid rgb(88, 88, 88);
   width: 5vw;
   height:14vh;
+<<<<<<< HEAD
 }
 .door{
   display: flex;
@@ -458,6 +547,8 @@ svg1{
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
+=======
+>>>>>>> 0decca1 (Intentando juntar bola y edificio)
 }
 
 #b1w3{
@@ -468,6 +559,7 @@ svg1{
   top: 57.2vh;
   left: 41.58vw;
   z-index: 1;
+<<<<<<< HEAD
 }
 
 .door1{
@@ -481,6 +573,8 @@ svg1{
 .door3{
   left: calc(var(--doorLeftBorder) + (var(--doorW) * 3));
   top: var(--doorTopBorder);
+=======
+>>>>>>> 0decca1 (Intentando juntar bola y edificio)
 }
 
 #b2w3{
@@ -491,6 +585,7 @@ svg1{
   top: 61.4vh;
   left: 41.58vw;
   z-index: 1;
+<<<<<<< HEAD
 }
 .overdoor{
   height: calc(var(--doorH) / 8);
@@ -499,6 +594,8 @@ svg1{
   position: absolute;
   left: var(--doorLeftBorder);
   top: calc(var(--doorTopBorder) - (var(--doorH) / 8));
+=======
+>>>>>>> 0decca1 (Intentando juntar bola y edificio)
 }
 
 #b3w3{
@@ -509,6 +606,7 @@ svg1{
   top: 65.6vh;
   left: 41.58vw;
   z-index: 1;
+<<<<<<< HEAD
 }
 
 .cristal {
@@ -517,6 +615,8 @@ svg1{
   background-color: aqua;
   margin: calc(var(--doorH) / 24);
   box-shadow: inset 0.5px 0.5px 1px 0.5px rgb(50, 50, 50);
+=======
+>>>>>>> 0decca1 (Intentando juntar bola y edificio)
 }
 
 #window4
@@ -538,6 +638,7 @@ svg1{
   top: 57.2vh;
   left: 50.75vw;
   z-index: 1;
+<<<<<<< HEAD
 }
 .bt1,
 .bt2 {
@@ -547,6 +648,8 @@ svg1{
   position: relative;
   right: 10px;
   border-radius: 10px;
+=======
+>>>>>>> 0decca1 (Intentando juntar bola y edificio)
 }
 
 #b2w4{
@@ -661,11 +764,14 @@ svg1{
   left: 41.55vw;
   width: 5vw;
   height:14vh;
+<<<<<<< HEAD
 }
 
 .bt1 {
   bottom: 12px;
 
+=======
+>>>>>>> 0decca1 (Intentando juntar bola y edificio)
 }
 
 #s2
@@ -677,9 +783,12 @@ svg1{
   left: 50.8vw;
   width: 5vw;
   height:14vh;
+<<<<<<< HEAD
 }
 .bt2 {
   top: 40px;
+=======
+>>>>>>> 0decca1 (Intentando juntar bola y edificio)
 }
 
 #s3
@@ -728,6 +837,7 @@ svg1{
 
 #iesmor{
 
+<<<<<<< HEAD
 }
 
 @keyframes snowing {
@@ -753,3 +863,6 @@ svg1{
     top: 100%;
   }
 }
+=======
+}
+>>>>>>> 0decca1 (Intentando juntar bola y edificio)
