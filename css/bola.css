@@ -162,11 +162,11 @@ line{
 #rectangle1
 {
   position: absolute;
-  top: 32px;
-  left: 38px;
-  background-color: rgb(170, 168, 168);
-  width: 23px;
-  height:64px;
+  top: 80px;
+  left: 100px;
+  background-color: red;
+  width: 100px;
+  height:150px;
 }
 
 body {
@@ -179,11 +179,11 @@ body {
 #rectangle2
 {
   position: absolute;
-  top: 55px;
-  left: 60px;
-  background-color: rgb(170, 168, 168);
-  width: 30px;
-  height:40px;
+  top: 115px;
+  left: 200px;
+  background-color: orangered;
+  width: 110px;
+  height:100px;
 
 }
 
@@ -193,8 +193,8 @@ body {
   top: 94px;
   left: 34.5px;
   background-color: grey;
-  width: 59.5px;
-  height:3px;
+  width: 10px;
+  height:30px;
 
 }
 
@@ -204,8 +204,8 @@ body {
   top: 70px;
   left: 17px;
   background-color: grey;
-  width: 20px;
-  height:3px;
+  width: 10px;
+  height:30px;
 
 }
 
@@ -304,19 +304,12 @@ body {
   left: calc(var(--fenceWidth)*11);
 }
 
-svg{
+/*svg{
   position: absolute;
   top: 78.6px;
   width: 22px;
   left: 38px;
-}
-
-svg1{
-  position: absolute;
-  top: 78.6px;
-  width: 22px;
-  left: 40px;
-}
+}*/
 
 
 #b2
